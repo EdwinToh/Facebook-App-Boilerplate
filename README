@@ -1,0 +1,20 @@
+
+================================================
+
+Facebook App Boilerplate includes the following:
+
+	: Gateway
+	: Tab Page
+	: Start Page
+
+================================================
+
+This is a boilerplate meant for developers looking to create a Facebook App with Flash.
+
+The boilerplate includes a LIKE gateway, checking to see if users liked a page before revealing content. This is done both on the tab and the gateway. You can simply remove the like gateway if you wish to.
+
+The gateway happens on index.php, which is what the page points to if you access the app directly, eg. http://apps.facebook.com/appname
+
+Once the user is verified to have liked the page, the app prompts for a permission, which by default requests access to the user's e-mail address.
+
+Once user allows it, the app goes to the start page which includes a 760px by 680px SWF file.
